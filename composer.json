@@ -1,0 +1,29 @@
+{
+    "name": "foxship/laravel-baseline",
+    "description": "A collection of usefull stuff for Laravel projects.",
+    "type": "library",
+    "require-dev": {
+        "foxship/laravel-baseline-dev": "@dev",
+        "laravel/framework": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0"
+    },
+    "license": "BSD-4-Clause",
+    "autoload": {
+        "psr-4": {
+            "Foxship\\LaravelBaseline\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Foxship Technologies",
+            "email": "tech@foxship.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Foxship\\LaravelBaseline\\LaravelBaselineServiceProvider"
+            ],
+            "aliases": {}
+        }
+    }
+}
